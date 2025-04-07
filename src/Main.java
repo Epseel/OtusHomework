@@ -11,8 +11,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    static Scanner scanner = new Scanner(System.in);
-    static NumberTools numberTools = new NumberTools();
+    private final static Scanner scanner = new Scanner(System.in);
+    private final static NumberTools numberTools = new NumberTools();
 
     public static void main(String[] args) {
         List<Animal> animals = new ArrayList<>();
