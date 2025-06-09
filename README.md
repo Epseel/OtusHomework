@@ -1,2 +1,2 @@
-# OtusHomework_1
+# OtusHomework
 Homework_1
