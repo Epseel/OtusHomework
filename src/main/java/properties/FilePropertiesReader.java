@@ -16,7 +16,7 @@ public class FilePropertiesReader implements IPropertyReader {
 
         Map<String, String> settings = new HashMap<>();
 
-        for (String key: properties.stringPropertyNames()) {
+        for (String key : properties.stringPropertyNames()) {
             settings.put(key, properties.getProperty(key));
         }
 

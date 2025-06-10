@@ -4,10 +4,20 @@ import data.ColorData;
 
 public abstract class Animal {
 
-    private String name;
-    private int age;
-    private int weight;
-    private ColorData color;
+    private int id = -1;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    private final String name;
+    private final int age;
+    private final int weight;
+    private final ColorData color;
 
     public Animal(String name, int age, int weight, ColorData color) {
         this.name = name;
